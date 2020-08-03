@@ -1,0 +1,59 @@
+#mainNav .navbar-brand {
+    color: #ffcc04;
+    font-family: 'Abel', sans-serif;
+    font-weight: 200;
+    letter-spacing: 0.0625em;
+    text-transform: lowercase;
+}
+
+header.masthead {
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: left;
+    color: #fff;
+    background-image: none;
+    background-color: #007bff;
+}
+
+.sub{
+    font-size: 1.3rem !important;
+    line-height: 2rem;
+    color: #000000;
+}
+header.masthead .masthead-subheading {
+    line-height: 2rem;
+    margin: 3rem;
+}
+.text{
+    margin: 3rem;
+}
+
+.page-section h2.section-heading {
+    font-size: 1.5rem !important;
+    margin: 0rem, 3rem, 0rem, 3rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+
+
+.my-3 {
+    margin-top: 0.1rem !important;
+  }
+
+hr {
+ padding-left: 1rem;
+    margin-top: 0.2rem;
+    margin-bottom: 1rem;
+    border: 1px solid #000;
+    margin-right: 2rem;
+}
+
+blockquote{
+    opacity: 35%;
+}
+
+.portfolio-modal .modal-content img {
+
+    width: 50%;
+}

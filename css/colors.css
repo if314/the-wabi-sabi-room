@@ -1,0 +1,28 @@
+.blue{
+    color:#007bff;
+}
+.yellow{
+    color:  #ffcc04;
+}
+.red{
+    color: #ff0034;
+}
+.light{
+    color: #ddf2ec;
+}
+.bg-light {
+    background-color: #ddf2ec !important;
+}
+.yellowb{
+    border: 1px solid #ffcc04;
+}
+.blueb{
+    border: 1px solid #007bff;
+}
+.redb{
+    border: 1px solid #ff0034;
+}
+
+#mainNav .navbar-brand {
+    color: #ffcc04;
+}
