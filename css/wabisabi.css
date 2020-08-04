@@ -65,6 +65,14 @@ header.masthead .masthead-subheading {
 h1, h2 {
     line-height: inherit;
 }
+
+a{
+    color: black;
+}
+
+.shadow{
+    text-shadow: 2px 2px 4px #999;
+}
 /*****CSS for display:none on extra logos in moile ***/
 
 .clientlogos {
@@ -102,3 +110,29 @@ header.masthead .masthead-subheading {
 }
 }
 
+
+/* animation button try */
+.stage {
+        display: flex;
+    width: 100%;
+}
+.box {
+    align-self: flex-end;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    margin-left:3rem;
+}
+.bounce-6 {
+    animation-name: bounce-6;
+    animation-timing-function: ease;
+}
+@keyframes bounce-6 {
+    0%   { transform: scale(1,1)      translateY(0); }
+    10%  { transform: scale(1.1,.9)   translateY(0); }
+    30%  { transform: scale(.9,1.1)   translateY(-100px); }
+    50%  { transform: scale(1.05,.95) translateY(0); }
+    57%  { transform: scale(1,1)      translateY(-7px); }
+    64%  { transform: scale(1,1)      translateY(0); }
+    100% { transform: scale(1,1)      translateY(0); }
+}
