@@ -57,3 +57,37 @@ blockquote{
 
     width: 50%;
 }
+
+
+
+
+/*****CSS for display:none on extra logos in moile ***/
+
+.clientlogos {
+    display:none !important;
+  }
+
+
+@media (min-width: 576px) {
+    .clisss {
+      display:blcok !important;
+    }
+  }
+  @media (min-width: 768px) {
+    .clientlogos {
+        display:block !important;
+      }
+   
+  }
+  @media (min-width: 992px) {
+   
+    .clientlogos {
+        display:block !important;
+      }
+    }
+  
+  @media (min-width: 1200px) {
+    .clientlogos {
+        display:block !important;
+      }
+}
